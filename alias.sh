@@ -1,4 +1,4 @@
-# /etc/skel/.bashrc
+#!/bin/bash
 
 # List 
 alias ll="ls -l"

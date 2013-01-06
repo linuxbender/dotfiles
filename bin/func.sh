@@ -1,4 +1,4 @@
-# /etc/skel/.bashrc
+#!/bin/bash
 
 #
 # unpack file
@@ -40,5 +40,17 @@ chmodF () {
 chmodD () {
 	if [ -n $1 ] ; then
 		find $2 -type d -print0 | xargs -0 chmod $1
+	fi
+}
+#
+# open the current repo or open my github page
+gito() {
+	giturl=$(git config --get remote.origin.url)
+	if [   -n "$giturl" ] ; then
+		giturl=${giturl/git\@github\.com\:/https://github.com/}
+		giturl=${giturl/\.git//}		
+		$browser $giturl &
+	else
+		$browser "https://github.com/$gitName" &
 	fi
 }
