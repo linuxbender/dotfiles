@@ -1,0 +1,7 @@
+[submodule "spot"]
+path = bin/spot
+url = https://github.com/guille/spot.git
+
+[submodule "z"]
+path = bin/z
+url = https://github.com/rupa/z.git
