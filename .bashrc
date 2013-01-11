@@ -25,3 +25,6 @@ fi
 
 # init z   https://github.com/rupa/z
 . ~/dotfiles/bin/z/z.sh
+
+# heroku toolbelt
+PATH="/usr/local/heroku/bin:$PATH"
