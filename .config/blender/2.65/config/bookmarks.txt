@@ -1,3 +1,0 @@
-[Bookmarks]
-[Recent]
-/home/glenn/Documents/blender/cycles/particel/

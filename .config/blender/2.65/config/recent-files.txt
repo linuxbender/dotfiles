@@ -1,2 +1,0 @@
-/home/glenn/Documents/blender/demo2.blend
-/home/glenn/Documents/blender/cycles/particel/demo-01.blend
